@@ -1,3 +1,9 @@
+@media (max-width: 1200px){
+    .header{
+        max-width: 956px;
+    }
+}
+
 @media (max-width: 950px){
     .header{
         max-width: 750px;
