@@ -30,13 +30,14 @@ body {
   background-color: #0D274D;
   display: flex;
   justify-content: center; }
-  .content .text {
-    color: #ffffff;
-    font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 22px; }
+
+.heading-text {
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px; }
 
 .cards {
   display: flex;
@@ -130,6 +131,8 @@ body {
   line-height: 21px;
   text-decoration-line: underline;
   color: #282828; }
+  .distance-title:hover {
+    color: #00BCEB; }
 
 .button1 {
   display: flex;
@@ -156,5 +159,9 @@ body {
   background: #00BCEB;
   border: 1px solid #00BCEB;
   color: #ffffff; }
+  .button-text:hover {
+    background: #0D274D;
+    box-shadow: inset 0 0 0 3px #3a7999;
+    transition: all 0.6s ease; }
 
 /*# sourceMappingURL=style.css.map */
