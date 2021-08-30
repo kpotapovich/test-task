@@ -4,7 +4,7 @@
     }
 }
 
-@media (max-width: 950px){
+@media (max-width: 940px){
     .header{
         max-width: 750px;
         position: unset;
